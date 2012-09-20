@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="312dp"
+    android:layout_x="0dp"
+    android:layout_y="40dp" >
+
+    <TextView
+        android:id="@+id/textOutput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" />
+
+</ScrollView>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="283dp"
+    android:layout_height="wrap_content"
+    android:layout_x="8dp"
+    android:layout_y="4dp"
+    android:text="Recent 10 entries"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<Button
+    android:id="@+id/buttonSend"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:layout_x="2dp"
+    android:layout_y="361dp"
+    android:text="TEST-1" />
+
+<Button
+    android:id="@+id/buttonDisp"
+    android:layout_width="136dp"
+    android:layout_height="wrap_content"
+    android:layout_x="176dp"
+    android:layout_y="360dp"
+    android:text="DUMP" />
+
+<Button
+    android:id="@+id/buttonExit"
+    android:layout_width="137dp"
+    android:layout_height="wrap_content"
+    android:layout_x="91dp"
+    android:layout_y="409dp"
+    android:text="EXIT" />
+
+</AbsoluteLayout>
